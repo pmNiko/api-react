@@ -1,19 +1,13 @@
-import React, {useState ,useEffect} from 'react';
-const Mouse = () => {
-  const [mouse, setMouse] = useState([0,0])
-
-  useEffect( () => {
-    console.log('inicio');
-  })
-}
-
+import React from 'react';
+import Personajes from './components/Personajes/Personajes'; 
 
 function App() {
   return (
     <>
-
+      <Personajes/>
     </>
-  );
+  )   
+  
 }
 
 export default App;
